@@ -1,0 +1,50 @@
+
+
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 3em;
+    background-color: aliceblue;
+}
+
+
+.first {
+    background-color: orange;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.second {
+    background-color: white;
+    width: 900px;
+    height: 200px;
+    position: relative;
+    left: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+#ashoka {
+    width: 150px;
+    height: 150px;
+    left: 350px;
+    position: absolute;
+    margin: 2%;
+    padding: 0;
+
+}
+
+.third {
+    background-color: green;
+    width: 900px;
+    height: 200px;
+    position: absolute;
+    top: 500px;
+    left: 208px;
+    margin: 0;
+    padding: 0
+}  
