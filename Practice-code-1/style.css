@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #283149;
+}
+
+
+.para-1 {
+    display: flex;
+    color: red;
+    font-size: medium;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    z-index: 1000;
+}
+
+h4 {
+    color: aquamarine;
+}
+
+.btn-1 {
+    width: 100px;
+    background-color: bisque;
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.adv-txt-box {
+    width: 150px;
+    height: 30px;
+    padding: 5px 5px;
+    outline: none;
+    border: 3px solid black;
+    position: relative;
+    background-color: wheat;
+    font-size: 16px;
+}
+
+.div-1 {
+    display: flex;
+}
+
+.container {
+    margin: 10% auto;
+}
+
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+  }
+
+  .q {
+    background-image: url("images/tom1.png");
+  }
+
+  .w {
+    background-image: url("images/tom2.png");
+  }
+
+  .e {
+    background-image: url("images/tom3.png");
+  }
+
+  .r {
+    background-image: url("images/tom4.png");
+  }
+
+  .t {
+    background-image: url("images/snare.png");
+  }
+
+  .y {
+    background-image: url("images/crash.png");
+  }
+
+  .u {
+    background-image: url("images/kick.png");
+  }
+
+  .i {
+    background-image: url("images/tom1.png");
+  }
+
+  .d {
+    background-image: url("images/tom3.png");
+  }
+
+  .s {
+    background-image: url("images/tom4.png");
+  }
+
+.drum {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.container-2 {
+  margin: 10%;
+}
+
+#btn-2 {
+  align-items: center;
+  margin: 12px;
+  color: red;
+  padding: 20px 15px;
+  font-weight: bold;
+  text-shadow: 4px 0 #DBEDF3;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
