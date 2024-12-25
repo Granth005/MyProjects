@@ -1,0 +1,72 @@
+#head {
+    justify-content: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    background-color: blanchedalmond;
+    z-index: 1000;
+}
+
+h2 {
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+    color: aquamarine;
+    margin: 20px;
+}
+
+.container {
+   text-align: center;
+
+}
+
+.para-1 {
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: darkgoldenrod;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+    color: chocolate;
+}
+
+input {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(215, 192, 237);
+    border-radius: 3px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: gold;
+}
+
+li.completed {
+    text-decoration: line-through;
+    color: black;
+}
+
