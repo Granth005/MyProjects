@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+}
+
+
+.para-1 {
+    display: flex;
+    color: red;
+    font-size: medium;
+    font-style: italic;
+    margin: 10px;
+    padding: 10px;
+    align-content: center;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+    z-index: 1000;
+}
+
+.btn-1 {
+    width: 100px;
+    background-color: bisque;
+    /* border: 20px solid; */
+    /* border-radius: 30%; */
+    border-color: black;
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+.adv-txt-box {
+    width: 150px;
+    height: 30px;
+    padding: 5px 5px;
+    outline: none;
+    border: 3px solid black;
+    position: relative;
+    background-color: wheat;
+    font-size: 16px;
+}
+
+.div-1 {
+    /* display: flex; */
+    /* position: inherit; */
+    /* padding: 4px 4px; */
+}
